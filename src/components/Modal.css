@@ -1,0 +1,74 @@
+div {
+    display: block;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.modal .content {
+    background: white;
+    padding: 1rem;
+    width: 700px;
+    height: 1000px;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1090px) {
+    .modal .content {
+        height: auto;
+    }
+  }
+
+.user .user_profile {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    float: left;
+}
+
+.user .user_profile > img {
+    width: 100px;
+    height: 100px;
+}
+
+.user .user_name {
+    height: 100px;
+    color: #242929;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+
+.gameInfoList {
+    margin-top: 20px;
+}
+
+.modal .content .user .user_head {
+    text-align: right;
+}
+
+.modal .content .user .user_head button.close_btn {
+    top:0px;
+    right:0px;
+    width:40px;
+    height:40px;
+    font-size: 0;
+    background: url('close.png');
+    border:0;
+}
+
+.modal .content .user .user_head .close_btn img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}

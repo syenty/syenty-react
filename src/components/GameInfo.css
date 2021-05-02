@@ -1,0 +1,260 @@
+.gameInfo {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #cdd2d2;
+}
+
+.Win{
+    background-color: #a3cfec;
+    border-color: #99b9cf;
+}
+
+.Fail{
+    background-color: #e2b6b3;
+    border-color: #cea7a7;
+}
+
+.gameInfo > div {
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.gameInfo .timeData {
+    width: 80px;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+    line-height: 16px;
+}
+
+.gameInfo .timeData .queue{
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gameInfo .timeData .bar {
+    background: #99b9cf;
+    display: block;
+    width: 27px;
+    margin: 5px auto;
+    height: 2px;
+}
+
+.gameInfo .timeData .result {
+    font-weight: bold;
+}
+
+.Win .timeData .result{
+    color: #1a78ae;
+}
+
+.Fail .timeData .result{
+    color: #c6443e;
+}
+
+.gameInfo .gameSetting {
+    width: 110px;
+    padding-left: 10px;
+}
+
+.gameInfo .gameSetting .championImage{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.gameInfo .gameSetting .championImage > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.gameInfo .gameSetting .spells{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.gameInfo .gameSetting .spells .spell:first-child {
+    margin-left: 0;
+}
+
+.gameInfo .gameSetting .spells .spell{
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.gameInfo .gameSetting .spells .spell > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gameInfo .gameSetting .runes{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.gameInfo .gameSetting .runes .rune:first-child {
+    margin-top: 0;
+}
+
+.gameInfo .gameSetting .runes .rune{
+    width: 22px;
+    height: 22px;   
+}
+
+.gameInfo .gameSetting .runes .rune > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.gameInfo .gameSetting .runes .rune .primary{
+    background-color: #000;
+}
+
+
+.gameInfo .gameSetting .runes .rune{
+    width: 22px;
+    height: 22px;
+}
+
+.gameInfo .gameSetting .championName{
+    margin-top: 8px;
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gameInfo .record {
+    width: 70px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.gameInfo .record .kda{
+    color: #879292;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.gameInfo .record .kda > span {
+    font-weight: bold;
+}
+
+.gameInfo .record .kda .kill, .gameInfo .record .kda .assist{
+    color: #555e5e;
+}
+
+.gameInfo .record .kda .death{
+    color: #c6443e;
+}
+
+.gameInfo .record .ratio{
+    color: #555e5e;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.gameInfo .record .ratio > span{
+    color: #353a3a;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.gameInfo .record .multiKill{
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 10px;
+    color: #f2f2f2;
+}
+
+.gameInfo .record .multiKill > span{
+    display: inline-block;
+    background: #ee5a52;
+    border: 1px solid #c6443e;
+    border-radius: 15px;
+    padding: 2px 5px;
+    line-height: 1;
+}
+
+.gameInfo .growth {
+    width: 80px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    color: #555e5e;
+}
+
+.gameInfo .items {
+    width: 90px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.gameInfo .items .item{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-right: 2px;
+    background-color: #99b9cf;
+    overflow: hidden;
+}
+
+.gameInfo .items .rest{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 2px;
+    background-color: #99b9cf;
+    overflow: hidden;
+}
+
+.Win .items .rest{
+    background-color: rgb(80, 150, 252);
+}
+
+.Fail .items .rest{
+    background-color: rgb(252, 80, 80);
+}
+
+.gameInfo .items .item > img{
+    width: 100%;
+    height: 100%;
+}
+
+.gameInfo .teams {
+    width: 170px;
+    font-size: 0;
+}
+
+.gameInfo .teams .team{
+    float: left;
+    width: 50%;
+}
+
+

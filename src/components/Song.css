@@ -1,0 +1,41 @@
+.song{
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-gap: 30px;
+    padding: 10px;
+}
+
+.song > .song_img > img {
+    width: 100px;
+    height: 100px;
+}
+
+.song > .song_info > div {
+    padding-top: 10px;
+}
+
+.song > .song_album {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1090px) {
+    .song{
+        display: grid;
+        grid-template-columns: 60px 180px 50px;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .song > .song_img > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .song > .song_info > div {
+        padding-top: 0px;
+    }
+
+    .song > .song_album {
+        margin-top: 6px;
+    }
+}

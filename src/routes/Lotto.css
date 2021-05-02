@@ -1,0 +1,211 @@
+@media screen and (max-width: 1090px) {
+    .container .main {
+        padding-bottom: 200px;
+    }
+}
+
+.container .main > div {
+    padding: 10px 120px;
+}
+
+@media screen and (max-width: 1090px) {
+    .container .main > div {
+        padding: 5px 30px;
+    }
+}
+
+.main .recent {
+    margin-top: 20px;
+}
+
+.main .recent .bigger{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.main .recent .smaller{
+    color: rgb(117, 117, 117);
+}
+
+.main .win_numbers {
+    margin-top:20px;
+}
+
+.main .win_numbers > div{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding-top: 11px;
+    margin-left: 10px;
+    float: left;
+}
+
+@media screen and (max-width: 1090px) {
+    .main .win_numbers > div{
+        width: 35px;
+        height: 35px;
+        font-size: 12pt;
+        border-radius: 50%;
+        padding-top: 6px;
+        margin-left: 5px;
+    }
+}
+
+.main .custom_numbers {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1090px) {
+    .main .custom_numbers {
+        margin-top: 50px;
+    }
+}
+
+.main .custom_numbers > div{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1090px) {
+    .main .custom_numbers > div{
+        margin-top: 40px;
+    }
+}
+
+.main .custom_numbers .buttons > button {
+    width: 60px;
+    height: 40px;
+    margin: 0px 25px;
+    border: 3px solid rgb(247, 138, 158);
+    background-color:rgba(0,0,0,0);
+    color: rgb(250, 75, 75);
+    font-size: 14pt;
+}
+
+.custom_numbers .custom .hate {
+    margin-top: 50px;
+}
+
+.custom_numbers .custom .favorite > span,
+.custom_numbers .custom .hate > span {
+    font-weight: bold;
+}
+
+.custom_numbers .custom .favorite > span {
+    color: rgb(255, 25, 25);
+}
+
+.custom_numbers .custom .hate > span {
+    color: rgb(25, 25, 255);
+}
+
+.custom_numbers .custom .favorite > input,
+.custom_numbers .custom .hate > input {
+    width: 150px;
+    height: 30px;
+    margin: 10px 10px 10px 0px;
+    padding-left: 10px;
+    color: rgb(70, 70, 70);
+}
+
+.custom_numbers .custom .favorite > input {
+    border: 2px solid rgb(255, 25, 25);
+}
+
+.custom_numbers .custom .hate > input {
+    border: 2px solid rgb(25, 25, 255);
+}
+
+.custom_numbers .custom .favorite > button,
+.custom_numbers .custom .hate > button {
+    width: 60px;
+    height: auto;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.custom_numbers .custom .favorite > button {
+    border: 2px solid rgb(255, 25, 25);
+    color: rgb(250, 75, 75);
+    background-color: rgb(255, 220, 220);
+}
+
+.custom_numbers .custom .hate > button {
+    border: 2px solid rgb(25, 25, 255);
+    color: rgb(75, 75, 250);
+    background-color: rgb(220, 220, 255);
+}
+
+.favorite_popup,
+.hate_popup {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, auto));
+}
+
+.favorite_popup > div, 
+.hate_popup > div{
+    height: 60px;
+    color: rgb(70, 70, 70);
+    font-size: 20pt;
+    text-align: center;
+    line-height: 55px;
+}
+
+.favorite_popup > div {
+    border: 2px solid orange;
+    background-color: rgb(255, 220, 170);
+}
+
+.hate_popup > div{
+    border: 2px solid green;
+    background-color: rgb(170, 255, 220);
+}
+
+.yellow {
+    border: 1px solid rgb(216, 216, 26);
+    background-color: rgb(247, 247, 187);
+}
+
+.blue{
+    border: 1px solid blue;
+    background-color: rgb(0, 120, 255);
+}
+
+.red{
+    border: 1px solid red;
+    background-color: rgb(255, 85, 85);
+}
+
+.gray{
+    border: 1px solid gray;
+    background-color: rgb(200, 200, 200);
+}
+
+.green{
+    border: 1px solid green;
+    background-color: rgb(115, 245, 115);
+}
+
+.main .win_numbers .white{
+    display: table-cell;
+    background-color:rgba(0,0,0,0);
+    font-size: 20pt;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 1090px) {
+    .main .win_numbers .white{
+        line-height: 17px;
+    }
+}
+
+.prevent_drag {
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

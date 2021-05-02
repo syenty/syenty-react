@@ -1,0 +1,7 @@
+  
+{
+    "riotUrl" : "https://kr.api.riotgames.com/lol",
+    "riotCdn" : "http://ddragon.leagueoflegends.com/cdn/11.9.1",
+    "nonVersionCdn" : "http://ddragon.leagueoflegends.com/cdn",
+    "middleware" : "http://61.97.188.101:19683"
+}
